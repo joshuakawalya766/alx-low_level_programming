@@ -1,7 +1,7 @@
-#include "holberton.h"
+#include "betty.h"
 
 /**
- * print_alphabet_x10 - Check holberton
+ * print_alphabet_x10 - Check betty
  * Description: function uses _putchar function to print
  * alphabet in lowercase 10 times
  * Return: Nothing.

@@ -1,7 +1,7 @@
-#include "holberton.h"
+#include "betty.h"
 
 /**
- * jack_bauer - Check Holberton
+ * jack_bauer - Check betty
  * Description: function prints every minute in one day
  * Return: Nothing
  */

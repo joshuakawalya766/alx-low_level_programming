@@ -1,7 +1,7 @@
-#include "holberton.h"
+#include "betty.h"
 
 /**
- * _islower - Check Holberton
+ * _islower - Check betty
  * @c: An input character
  * Description: function uses _putchar function to print
  * alphabet in lowercase 10 times
