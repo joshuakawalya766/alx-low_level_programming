@@ -1,22 +1,24 @@
-#include "holberton.h"
 #include <stdio.h>
-
-/**
- * print_array - a function that prints n elements of an array of integers,
- * followed by a new line.
- * @a: an input array
- * @n: an input integer
- * Return: Nothing
+ #include "main.h"
+ 
+ /**
+ * print_array - prints n element of array
+ * @a: array
+ * @n: number of elements
+ * Return: nothing
  */
-void print_array(int *a, int n)
-{
-	int i = 0;
-
-	for (; i < n; i++)
-	{
-		printf("%d", a[i]);
-		if (i < n - 1)
-			printf(", ");
-	}
-	putchar('\n');
-}
+ 
+ void print_array(int *a, int n)
+ {
+     int inc;
+ 
+     for (inc = 0; inc < n ; inc++)
+     {
+         if (inc != n - 1)
+             printf("%d, ", a[inc]);
+         else
+             printf("%d", a[inc]);
+ 
+     }
+     putchar(10);
+ }
